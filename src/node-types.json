@@ -14588,7 +14588,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "contains",
@@ -14751,6 +14752,10 @@
     "named": false
   },
   {
+    "type": "perl",
+    "named": false
+  },
+  {
     "type": "php",
     "named": false
   },
@@ -14856,11 +14861,11 @@
   },
   {
     "type": "variable",
-    "named": true
+    "named": false
   },
   {
     "type": "variable",
-    "named": false
+    "named": true
   },
   {
     "type": "where",
